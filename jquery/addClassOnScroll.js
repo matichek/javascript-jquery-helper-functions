@@ -13,8 +13,6 @@
           let scroll = $(window).scrollTop();
           if (scroll >= section_position) {
               cta_section.addClass(anim_class_name);
-              console.log(section_position);
-
           } else {
               cta_section.removeClass(anim_class_name);
           }
